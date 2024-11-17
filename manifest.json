@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "WebP to PNG/JPG Converter",
+    "version": "1.0",
+    "description": "Convert and save images as PNG or JPG.",
+    "permissions": ["contextMenus", "downloads", "storage"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
